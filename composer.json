@@ -1,0 +1,13 @@
+{
+    "require": {
+        "symfony/var-dumper": "^3.2"
+    },
+    "autoload" : {
+        "psr-4": {
+            "Acme\\Classes\\" : "Acme/Classes",
+            "Acme\\Interfaces\\": "Acme/Interfaces",
+            "Acme\\Models\\": "Acme/Models",
+            "Asw\\Database\\" : "Asw/Database"
+        }
+    }
+}
