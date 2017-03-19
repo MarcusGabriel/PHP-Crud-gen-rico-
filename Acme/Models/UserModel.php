@@ -7,4 +7,7 @@ use Asw\Database\AswModel;
 class UserModel extends AswModel{
 
     protected $table = 'users';
-}
+    
+
+
+   }
