@@ -1,13 +1,12 @@
-<h2 class="verde"><i class="user icon"></i>Cadastrar User</h2>
+<h2><i class="user icon"></i>Cadastrar Usuario</h2>
 <?php echo isset($mensagem) ? $mensagem : '' ?>
-<form method="post" autocomplete="off" class="ui form">
-    <label>User: </label>
+<form method="post" autocomplete="off" class="ui form" autocomplete="off">
+    <label>Usuario: </label>
     <input type="text" name="name" required autofocus placeholder="digite um nome: "/>
     <label>E-mail: </label>
-    <input type="text" name="email" required placeholder="email"/>
-    <label>Password: </label>
-    <input type="password" name="password" required/>    
+    <input type="text" name="email" required placeholder="email"/> 
     <input type="hidden" name="cadastrar"/>    
+    <hr>
     <button type="submit" class="ui blue button"><i class="check green icon"></i>Cadastrar</button>
     
 </form>
@@ -19,10 +18,10 @@
     $users = $user->read();
 ?>
 
-<table border = "100%" class='ui green table'>
+<table border = "100%" class='ui red table'>
     <thead class='center aligned'>
         <tr>
-            <td>User </td>
+            <td>Usuario </td>
             <td>email </td>
             <td>Editar</td>
             <td>Deletar</td>
